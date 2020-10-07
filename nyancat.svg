@@ -1,8 +1,93 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
-  <rect id="background" width="100%" height="100%" fill="transparent" />
-  <svg id="rainbows">
+  <defs>
+    <radialGradient id="BackgroundGradient">
+      <stop offset="0%" stop-color="#005093" />
+      <stop offset="100%" stop-color="#002953">
+    </radialGradient>
+
+    <g id="sparkle" transform="scale(2)" stroke="white">
+      <!-- <circle rx="0" ry="0" r="10" fill="" /> -->
+      <style>
+        .sparkle-frame6 {
+          animation: catrun 0.42s linear 0.35s infinite;
+        }
+
+        .sparkle-frame5 {
+          animation: catrun 0.42s linear 0.28s infinite;
+        }
+
+        .sparkle-frame4 {
+          animation: catrun 0.42s linear 0.21s infinite;
+        }
+
+        .sparkle-frame3 {
+          animation: catrun 0.42s linear 0.14s infinite;
+        }
+
+        .sparkle-frame2 {
+          animation: catrun 0.42s linear 0.07s infinite;
+        }
+
+        .sparkle-frame1 {
+          animation: catrun 0.42s linear 0s infinite;
+        }
+
+        @keyframes sparkle {
+          0% {
+            opacity: 1;
+          }
+
+          16.666666% {
+            opacity: 1;
+          }
+
+          16.6666666% {
+            opacity: 0;
+          }
+
+          100% {
+            opacity: 0;
+          }
+        }
+      </style>
+      <path class="sparkle-frame1" d="M3.5 0, v2, M7 3.5, h-2, M3.5 7, v-2, M0 3.5, h2, M3 3.5, h1" /> -->
+      <path class="sparkle-frame2"
+        d="M3 0.5, h1, M5 1.5, h1, M6 3.5, h1, M5 5.5 h1, M3 6.5, h1, M1 5.5, h1, M0 3.5, h1, M1 1.5, h1" />
+      <path class="sparkle-frame3" d="M3 0.5, h1, M6 3.5, h1, M3 6.5 h1, M0 3.5, h1" />
+      <path class="sparkle-frame4" d="M3 3.5, h1" />
+      <path class="sparkle-frame5" d="M3 2.5, h1, M4 3.5, h1, M3 4.5, h1, M2 3.5, h1" />
+      <path class="sparkle-frame6" d="M3.5 1, v2, M4 3.5, h2, M3.5 4, v2, M1 3.5, h2" />
+    </g>
+  </defs>
+  <rect id="background" width="100%" height="100%" fill="url('#BackgroundGradient')" />
+
+  <use href="#sparkle" id="sparkle1">
+    <animateMotion dur="0.77s" repeatCount="indefinite" path="M240 10 80 10" />
+  </use>
+  <use href="#sparkle" id="sparkle2">
+    <animateMotion begin="0.2566" dur="0.77s" repeatCount="indefinite" path="M240 23 80 23" />
+  </use>
+  <use href="#sparkle" id="sparkle3">
+    <animateMotion begin="0.5133" dur="0.77s" repeatCount="indefinite" path="M240 36 80 36" />
+  </use>
+  <use href="#sparkle" id="sparkle4">
+    <animateMotion begin="0.1283" dur="0.77s" repeatCount="indefinite" path="M240 130 80 130" />
+  </use>
+  <use href="#sparkle" id="sparkle5">
+    <animateMotion begin="0.385" dur="0.77s" repeatCount="indefinite" path="M240 143 80 143" />
+  </use>
+  <use href="#sparkle" id="sparkle6">
+    <animateMotion begin="0.6416" dur="0.77s" repeatCount="indefinite" path="M240 166 80 166" />
+  </use>
+  <use href="#sparkle" id="sparkle7">
+    <animateMotion dur="0.84s" repeatCount="indefinite" path="M240 105 80 105" />
+  </use>
+  <use href="#sparkle" id="sparkle8">
+    <animateMotion begin="0.28" dur="0.84s" repeatCount="indefinite" path="M240 73 80 73" />
+  </use>
+  <svg id="rainbow" y="58.5">
     <defs>
-      <linearGradient id="rainbow-gradient" gradientTransform="rotate(90)">
+      <linearGradient id="RainbowGradient" gradientTransform="rotate(90)">
         <stop offset="0%" stop-color="#FD1B00" />
         <stop offset="16.66%" stop-color="#FD1B00" />
         <stop offset="16.67%" stop-color="#FD9B01" />
@@ -67,45 +152,45 @@
       }
     </style>
     <g class="rainbow-container">
-      <rect class="rainbow-piece rainbow-piece0" width="30" height="54" fill="url('#rainbow-gradient')">
+      <rect class="rainbow-piece rainbow-piece0" width="30" height="54" fill="url('#RainbowGradient')">
         <!-- <animateTransform attributeName="transform" type="translate" values="0 -5; 0 -5; 0 5;  0 5" dur="0.42s" repeatCount="indefinite" /> -->
       </rect>
-      <rect class="rainbow-piece rainbow-piece1" x="29.9" width="30" height="54" fill="url('#rainbow-gradient')" />
-      <rect class="rainbow-piece rainbow-piece0" x="59.8" width="30" height="54" fill="url('#rainbow-gradient')" />
-      <rect class="rainbow-piece rainbow-piece1" x="89.7" width="30" height="54" fill="url('#rainbow-gradient')" />
-      <rect class="rainbow-piece rainbow-piece0" x="119.6" width="30" height="54" fill="url('#rainbow-gradient')" />
+      <rect class="rainbow-piece rainbow-piece1" x="29.9" width="30" height="54" fill="url('#RainbowGradient')" />
+      <rect class="rainbow-piece rainbow-piece0" x="59.8" width="30" height="54" fill="url('#RainbowGradient')" />
+      <rect class="rainbow-piece rainbow-piece1" x="89.7" width="30" height="54" fill="url('#RainbowGradient')" />
+      <rect class="rainbow-piece rainbow-piece0" x="119.6" width="30" height="54" fill="url('#RainbowGradient')" />
 
     </g>
   </svg>
 
-  <svg id="cat" x="120" width="102" height="73" viewBox="0 0 34 21" preserveAspectRatio="xMinYMin meet">
-    <!-- All cat-layers are adapted from https://github.com/iliana/html5nyancat . -->
+  <svg id="cat" x="120" y="58.5" width="102" height="73" viewBox="0 0 34 21" preserveAspectRatio="xMinYMin meet">
+    <!-- All cat-frames are adapted from https://github.com/iliana/html5nyancat . -->
     <style>
-      .cat-layer {
+      .cat-frame {
         opacity: 0;
       }
 
-      #cat-layer6 {
+      #cat-frame6 {
         animation: catrun 0.42s linear 0.35s infinite;
       }
 
-      #cat-layer5 {
+      #cat-frame5 {
         animation: catrun 0.42s linear 0.28s infinite;
       }
 
-      #cat-layer4 {
+      #cat-frame4 {
         animation: catrun 0.42s linear 0.21s infinite;
       }
 
-      #cat-layer3 {
+      #cat-frame3 {
         animation: catrun 0.42s linear 0.14s infinite;
       }
 
-      #cat-layer2 {
+      #cat-frame2 {
         animation: catrun 0.42s linear 0.07s infinite;
       }
 
-      #cat-layer1 {
+      #cat-frame1 {
         animation: catrun 0.42s linear 0s infinite;
       }
 
@@ -127,7 +212,7 @@
         }
       }
     </style>
-    <g id="cat-layer1" class="cat-layer">
+    <g id="cat-frame1" class="cat-frame">
       <g transform="translate(1,0)" id="layer1" style="display:inline">
         <g transform="translate(4,-1032.3622)" id="g3832">
           <path d="m 0,50 0,-3 1,0 0,-1 4,0 0,3 -1,0 0,1 z" transform="translate(0,1002.3622)" id="path3050"
@@ -197,7 +282,7 @@
       </g>
     </g>
 
-    <g id="cat-layer2" class="cat-layer">
+    <g id="cat-frame2" class="cat-frame">
       <g transform="translate(1,-1)" id="g4196">
         <g transform="translate(0,-1031.3622)" id="layer1">
           <g id="g3982">
@@ -271,7 +356,7 @@
       </g>
     </g>
 
-    <g id="cat-layer3" class="cat-layer">
+    <g id="cat-frame3" class="cat-frame">
       <g transform="translate(1,1)" id="g4137">
         <g id="g3806">
           <path d="m 6,20 0,-4 4,0 0,3 -1,0 0,1 z" id="path3977" style="fill:#000000;fill-opacity:1;stroke:none" />
@@ -338,7 +423,7 @@
       </g>
     </g>
 
-    <g id="cat-layer4" class="cat-layer">
+    <g id="cat-frame4" class="cat-frame">
       <g transform="translate(1,0)" id="g4082">
         <g transform="translate(0,-1031.3622)" id="g3982">
           <path d="m 5,20 0,-3 1,0 0,-1 3,0 0,3 -1,0 0,1 z" transform="translate(0,1032.3622)" id="path3977-4"
@@ -408,7 +493,7 @@
       </g>
     </g>
 
-    <g id="cat-layer5" class="cat-layer">
+    <g id="cat-frame5" class="cat-frame">
       <g transform="translate(1,0)" id="g4025">
         <g transform="translate(0,1)" id="g5089">
           <path d="m 3,20 0,-3 1,0 0,-1 1,0 0,-1 3,0 0,3 -1,0 0,1 -1,0 0,1 z" id="path5085"
@@ -477,7 +562,7 @@
       </g>
     </g>
 
-    <g id="cat-layer6" class="cat-layer">
+    <g id="cat-frame6" class="cat-frame">
       <g transform="translate(1,0)" id="g3968">
         <g transform="translate(0,1)" id="g5089">
           <path d="m 3,20 0,-3 1,0 0,-1 1,0 0,-1 3,0 0,3 -1,0 0,1 -1,0 0,1 z" id="path5085"
