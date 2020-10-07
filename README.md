@@ -4,7 +4,7 @@ A pure SVG version of the Nyan Cat animation. My toy project for learning SVG.
 ![nyancat](https://raw.githubusercontent.com/Gowee/nyancat-svg/main/nyancat.svg)
 
 ## Credits
-All the cat running animation frames comes from:
+**All frames of the cat running animation** comes from @iliana's:
 - https://github.com/iliana/html5nyancat
 
 It also uses the following projects as references:
