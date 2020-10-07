@@ -1,5 +1,5 @@
 # nyancat.svg
-A pure SVG version of the Nyan Cat animation. My toy project for learning SVG.
+A pure SVG version of the Nyan Cat animation (w/o audio). My toy project for learning SVG.
 
 ![nyancat](https://raw.githubusercontent.com/Gowee/nyancat-svg/main/nyancat.svg)
 
