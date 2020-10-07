@@ -1,34 +1,112 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+  <rect id="background" width="100%" height="100%" fill="transparent" />
+  <svg id="rainbows">
+    <defs>
+      <linearGradient id="rainbow-gradient" gradientTransform="rotate(90)">
+        <stop offset="0%" stop-color="red" />
+        <stop offset="16.66%" stop-color="red" />
+        <stop offset="16.67%" stop-color="orange" />
+        <stop offset="33.33%" stop-color="orange" />
+        <stop offset="33.34%" stop-color="yellow" />
+        <stop offset="49.99%" stop-color="yellow" />
+        <stop offset="50.00%" stop-color="green" />
+        <stop offset="66.66%" stop-color="green" />
+        <stop offset="66.67%" stop-color="blue" />
+        <stop offset="83.33%" stop-color="blue" />
+        <stop offset="83.34%" stop-color="purple" />
+        <stop offset="100%" stop-color="purple" />
+      </linearGradient>
+    </defs>
+    <style>
+      .rainbow-container {
+        animation: rainbow-leftright 0.42s linear infinite;
+      }
 
-  <svg id="cat" x="50" width="102" height="73" viewBox="0 0 34 21" preserveAspectRatio="xMinYMin meet">
-    <!-- All cat-layers are adapted from https://github.com/iliana/html5nyancat -->
+      .rainbow-piece0 {
+        animation: rainbow-updown 0.42s linear infinite;
+      }
+
+      .rainbow-piece1 {
+        animation: rainbow-updown 0.42s linear -0.21s infinite;
+      }
+
+      @keyframes rainbow-updown {
+        0% {
+          transform: translate(0, 0px);
+        }
+
+        49.99% {
+          transform: translate(0, 0px);
+        }
+
+        50% {
+          transform: translate(0, 4px);
+        }
+
+        100% {
+          transform: translate(0, 4px);
+        }
+      }
+
+      @keyframes rainbow-leftright {
+        0% {
+          transform: translate(0px, 0px);
+        }
+
+        49.99% {
+          transform: translate(0px, 0px);
+        }
+
+        50% {
+          transform: translate(-4px, 0px);
+        }
+
+        100% {
+          transform: translate(-4px, 0px);
+        }
+      }
+    </style>
+    <g class="rainbow-container">
+      <rect class="rainbow-piece rainbow-piece0" width="30" height="54" fill="url('#rainbow-gradient')">
+        <!-- <animateTransform attributeName="transform" type="translate" values="0 -5; 0 -5; 0 5;  0 5" dur="0.42s" repeatCount="indefinite" /> -->
+      </rect>
+      <rect class="rainbow-piece rainbow-piece1" x="29.9" width="30" height="54" fill="url('#rainbow-gradient')" />
+      <rect class="rainbow-piece rainbow-piece0" x="59.8" width="30" height="54" fill="url('#rainbow-gradient')" />
+      <rect class="rainbow-piece rainbow-piece1" x="89.7" width="30" height="54" fill="url('#rainbow-gradient')" />
+      <rect class="rainbow-piece rainbow-piece0" x="119.6" width="30" height="54" fill="url('#rainbow-gradient')" />
+
+    </g>
+  </svg>
+
+  <svg id="cat" x="120" width="102" height="73" viewBox="0 0 34 21" preserveAspectRatio="xMinYMin meet">
+    <!-- All cat-layers are adapted from https://github.com/iliana/html5nyancat . -->
     <style>
       .cat-layer {
         opacity: 0;
       }
 
       #cat-layer6 {
-        animation: catrun 0.42s linear infinite;
+        animation: catrun 0.42s linear 0.35s infinite;
       }
 
       #cat-layer5 {
-        animation: catrun 0.42s linear -0.07s infinite;
+        animation: catrun 0.42s linear 0.28s infinite;
       }
 
       #cat-layer4 {
-        animation: catrun 0.42s linear -0.14s infinite;
+        animation: catrun 0.42s linear 0.21s infinite;
       }
 
       #cat-layer3 {
-        animation: catrun 0.42s linear -0.21s infinite;
+        animation: catrun 0.42s linear 0.14s infinite;
       }
 
       #cat-layer2 {
-        animation: catrun 0.42s linear -0.28s infinite;
+        animation: catrun 0.42s linear 0.07s infinite;
       }
 
       #cat-layer1 {
-        animation: catrun 0.42s linear -0.35s infinite;
+        animation: catrun 0.42s linear 0s infinite;
       }
 
       @keyframes catrun {
@@ -36,11 +114,11 @@
           opacity: 1;
         }
 
-        16.66% {
+        16.666666% {
           opacity: 1;
         }
 
-        16.666% {
+        16.6666666% {
           opacity: 0;
         }
 
