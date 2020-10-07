@@ -2,7 +2,7 @@
   <defs>
     <radialGradient id="BackgroundGradient">
       <stop offset="0%" stop-color="#005093" />
-      <stop offset="100%" stop-color="#002953">
+      <stop offset="100%" stop-color="#002953" />
     </radialGradient>
 
     <g id="sparkle" transform="scale(2)" stroke="white">
