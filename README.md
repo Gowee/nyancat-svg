@@ -3,7 +3,7 @@ A pure SVG version of the Nyan Cat animation.
 
 Still under development.
 
-![nyancat](https://raw.githubusercontent.com/Gowee/nyancat-svg/main/nyaacat.svg)
+![nyancat](https://raw.githubusercontent.com/Gowee/nyancat-svg/main/nyancat.svg)
 
 ## Credits
 All the cat running animation frames comes from:
