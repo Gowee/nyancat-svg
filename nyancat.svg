@@ -50,13 +50,13 @@
           }
         }
       </style>
-      <path class="sparkle-frame1" d="M3.5 0, v2, M7 3.5, h-2, M3.5 7, v-2, M0 3.5, h2, M3 3.5, h1" />
+      <path class="sparkle-frame1" d="M3.5 0 v2 M7 3.5 h-2 M3.5 7 v-2 M0 3.5 h2 M3 3.5 h1" />
       <path class="sparkle-frame2"
-        d="M3 0.5, h1, M5 1.5, h1, M6 3.5, h1, M5 5.5 h1, M3 6.5, h1, M1 5.5, h1, M0 3.5, h1, M1 1.5, h1" />
-      <path class="sparkle-frame3" d="M3 0.5, h1, M6 3.5, h1, M3 6.5 h1, M0 3.5, h1" />
-      <path class="sparkle-frame4" d="M3 3.5, h1" />
-      <path class="sparkle-frame5" d="M3 2.5, h1, M4 3.5, h1, M3 4.5, h1, M2 3.5, h1" />
-      <path class="sparkle-frame6" d="M3.5 1, v2, M4 3.5, h2, M3.5 4, v2, M1 3.5, h2" />
+        d="M3 0.5 h1 M5 1.5 h1 M6 3.5 h1 M5 5.5 h1 M3 6.5 h1 M1 5.5 h1 M0 3.5 h1 M1 1.5 h1" />
+      <path class="sparkle-frame3" d="M3 0.5 h1 M6 3.5 h1 M3 6.5 h1 M0 3.5 h1" />
+      <path class="sparkle-frame4" d="M3 3.5 h1" />
+      <path class="sparkle-frame5" d="M3 2.5 h1 M4 3.5 h1 M3 4.5 h1 M2 3.5 h1" />
+      <path class="sparkle-frame6" d="M3.5 1 v2 M4 3.5 h2 M3.5 4 v2 M1 3.5 h2" />
     </g>
   </defs>
   <rect id="background" width="100%" height="100%" fill="url('#BackgroundGradient')" />
