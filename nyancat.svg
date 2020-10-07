@@ -9,27 +9,27 @@
       <!-- <circle rx="0" ry="0" r="10" fill="" /> -->
       <style>
         .sparkle-frame6 {
-          animation: catrun 0.42s linear 0.35s infinite;
+          animation: sparkle 0.42s linear 0.35s infinite;
         }
 
         .sparkle-frame5 {
-          animation: catrun 0.42s linear 0.28s infinite;
+          animation: sparkle 0.42s linear 0.28s infinite;
         }
 
         .sparkle-frame4 {
-          animation: catrun 0.42s linear 0.21s infinite;
+          animation: sparkle 0.42s linear 0.21s infinite;
         }
 
         .sparkle-frame3 {
-          animation: catrun 0.42s linear 0.14s infinite;
+          animation: sparkle 0.42s linear 0.14s infinite;
         }
 
         .sparkle-frame2 {
-          animation: catrun 0.42s linear 0.07s infinite;
+          animation: sparkle 0.42s linear 0.07s infinite;
         }
 
         .sparkle-frame1 {
-          animation: catrun 0.42s linear 0s infinite;
+          animation: sparkle 0.42s linear 0s infinite;
         }
 
         @keyframes sparkle {
@@ -50,7 +50,7 @@
           }
         }
       </style>
-      <path class="sparkle-frame1" d="M3.5 0, v2, M7 3.5, h-2, M3.5 7, v-2, M0 3.5, h2, M3 3.5, h1" /> -->
+      <path class="sparkle-frame1" d="M3.5 0, v2, M7 3.5, h-2, M3.5 7, v-2, M0 3.5, h2, M3 3.5, h1" />
       <path class="sparkle-frame2"
         d="M3 0.5, h1, M5 1.5, h1, M6 3.5, h1, M5 5.5 h1, M3 6.5, h1, M1 5.5, h1, M0 3.5, h1, M1 1.5, h1" />
       <path class="sparkle-frame3" d="M3 0.5, h1, M6 3.5, h1, M3 6.5 h1, M0 3.5, h1" />
@@ -62,28 +62,28 @@
   <rect id="background" width="100%" height="100%" fill="url('#BackgroundGradient')" />
 
   <use href="#sparkle" id="sparkle1">
-    <animateMotion dur="0.77s" repeatCount="indefinite" path="M240 10 80 10" />
+    <animateMotion dur="0.77s" repeatCount="indefinite" path="M250 10 70 10" />
   </use>
   <use href="#sparkle" id="sparkle2">
-    <animateMotion begin="0.2566" dur="0.77s" repeatCount="indefinite" path="M240 23 80 23" />
+    <animateMotion begin="0.2566" dur="0.77s" repeatCount="indefinite" path="M250 23 70 23" />
   </use>
   <use href="#sparkle" id="sparkle3">
-    <animateMotion begin="0.5133" dur="0.77s" repeatCount="indefinite" path="M240 36 80 36" />
+    <animateMotion begin="0.5133" dur="0.77s" repeatCount="indefinite" path="M250 36 70 36" />
   </use>
   <use href="#sparkle" id="sparkle4">
-    <animateMotion begin="0.1283" dur="0.77s" repeatCount="indefinite" path="M240 130 80 130" />
+    <animateMotion begin="0.1283" dur="0.77s" repeatCount="indefinite" path="M250 130 70 130" />
   </use>
   <use href="#sparkle" id="sparkle5">
-    <animateMotion begin="0.385" dur="0.77s" repeatCount="indefinite" path="M240 143 80 143" />
+    <animateMotion begin="0.385" dur="0.77s" repeatCount="indefinite" path="M250 143 70 143" />
   </use>
   <use href="#sparkle" id="sparkle6">
-    <animateMotion begin="0.6416" dur="0.77s" repeatCount="indefinite" path="M240 166 80 166" />
+    <animateMotion begin="0.6416" dur="0.77s" repeatCount="indefinite" path="M250 166 70 166" />
   </use>
   <use href="#sparkle" id="sparkle7">
-    <animateMotion dur="0.84s" repeatCount="indefinite" path="M240 105 80 105" />
+    <animateMotion dur="0.84s" repeatCount="indefinite" path="M250 105 70 105" />
   </use>
   <use href="#sparkle" id="sparkle8">
-    <animateMotion begin="0.28" dur="0.84s" repeatCount="indefinite" path="M240 73 80 73" />
+    <animateMotion begin="0.28" dur="0.84s" repeatCount="indefinite" path="M250 73 70 73" />
   </use>
   <svg id="rainbow" y="58.5">
     <defs>
