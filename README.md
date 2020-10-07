@@ -10,3 +10,6 @@ All the cat running animation frames comes from:
 It also uses the following projects as references:
 - https://github.com/michalbe/css-nyan-cat
 - https://github.com/cristurm/nyan-cat
+
+Certainly also heavily relys on:
+- https://www.youtube.com/watch?v=SkgTxQm9DWM
