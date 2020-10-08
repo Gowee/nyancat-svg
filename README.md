@@ -12,4 +12,5 @@ It also uses the following projects as references:
 - https://github.com/cristurm/nyan-cat
 
 Certainly also heavily relys on:
-- https://www.youtube.com/watch?v=SkgTxQm9DWM
+- https://www.youtube.com/watch?v=QH2-TGUlwu4 (the original one)
+- https://www.youtube.com/watch?v=SkgTxQm9DWM (HD remake)
