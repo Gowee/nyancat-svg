@@ -65,16 +65,16 @@
     <animateMotion dur="0.77s" repeatCount="indefinite" path="M250 10 70 10" />
   </use>
   <use href="#sparkle" id="sparkle2">
-    <animateMotion begin="0.2566" dur="0.77s" repeatCount="indefinite" path="M250 23 70 23" />
+    <animateMotion begin="0.2566" dur="0.77s" repeatCount="indefinite" path="M255 23 65 23" />
   </use>
   <use href="#sparkle" id="sparkle3">
-    <animateMotion begin="0.5133" dur="0.77s" repeatCount="indefinite" path="M250 36 70 36" />
+    <animateMotion begin="0.5133" dur="0.77s" repeatCount="indefinite" path="M260 36 60 36" />
   </use>
   <use href="#sparkle" id="sparkle4">
-    <animateMotion begin="0.1283" dur="0.77s" repeatCount="indefinite" path="M250 130 70 130" />
+    <animateMotion begin="0.1283" dur="0.77s" repeatCount="indefinite" path="M260 130 60 130" />
   </use>
   <use href="#sparkle" id="sparkle5">
-    <animateMotion begin="0.385" dur="0.77s" repeatCount="indefinite" path="M250 143 70 143" />
+    <animateMotion begin="0.385" dur="0.77s" repeatCount="indefinite" path="M255 143 65 143" />
   </use>
   <use href="#sparkle" id="sparkle6">
     <animateMotion begin="0.6416" dur="0.77s" repeatCount="indefinite" path="M250 166 70 166" />
