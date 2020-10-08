@@ -155,10 +155,10 @@
       <rect class="rainbow-piece rainbow-piece0" width="30" height="54" fill="url('#RainbowGradient')">
         <!-- <animateTransform attributeName="transform" type="translate" values="0 -5; 0 -5; 0 5;  0 5" dur="0.42s" repeatCount="indefinite" /> -->
       </rect>
-      <rect class="rainbow-piece rainbow-piece1" x="29.9" width="30" height="54" fill="url('#RainbowGradient')" />
-      <rect class="rainbow-piece rainbow-piece0" x="59.8" width="30" height="54" fill="url('#RainbowGradient')" />
-      <rect class="rainbow-piece rainbow-piece1" x="89.7" width="30" height="54" fill="url('#RainbowGradient')" />
-      <rect class="rainbow-piece rainbow-piece0" x="119.6" width="30" height="54" fill="url('#RainbowGradient')" />
+      <rect class="rainbow-piece rainbow-piece1" x="29.5" width="30" height="54" fill="url('#RainbowGradient')" />
+      <rect class="rainbow-piece rainbow-piece0" x="59" width="30" height="54" fill="url('#RainbowGradient')" />
+      <rect class="rainbow-piece rainbow-piece1" x="88.5" width="30" height="54" fill="url('#RainbowGradient')" />
+      <rect class="rainbow-piece rainbow-piece0" x="118" width="30" height="54" fill="url('#RainbowGradient')" />
 
     </g>
   </svg>
